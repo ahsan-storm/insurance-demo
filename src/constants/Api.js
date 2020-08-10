@@ -1,0 +1,13 @@
+export const API_URL = "http://localhost:8080/";
+export const UNITS_URL = API_URL + "units";
+export const CREATE_UNIT_URL = API_URL + "units/create";
+export const PRODUCTS_URL = API_URL + "products";
+export const PRODUCTS_QUANTITY_URL = PRODUCTS_URL + "/quantity";
+export const PRODUCTS_SEARCH_URL = PRODUCTS_URL + "/search";
+export const CREATE_PRODUCTS_URL = API_URL + "products/create";
+export const PRODUCTS_UNITS_URL = API_URL + "products/units";
+export const PRODUCTS_TRANSFERS_URL = API_URL + "products/transfers";
+export const PRODUCTS_INVOICES_URL = API_URL + "products/invoices";
+export const PRODUCTS_INVOICES_CREATE_URL = PRODUCTS_INVOICES_URL + "/create";
+export const PRODUCTS_INVOICES_CONFIRM_URL = PRODUCTS_INVOICES_URL + "/confirm";
+export const PAGE_SIZE_8 = "?size=1&page=";

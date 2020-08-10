@@ -1,0 +1,29 @@
+// Here you can add other styles
+.product-img {
+  border-radius: 50%;
+}
+
+.text-lg-primary {
+  font-size: larger;
+  color: #005c9c;
+}
+
+.products-pagination .pagination {
+  justify-content: center;
+}
+
+.loader-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.bottom-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
